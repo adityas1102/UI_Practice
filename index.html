@@ -1,286 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Structure</title>
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
-      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        section{
+            height: 600px;
+            border: 5px solid green;
+            display: flex;
+            /* flex-wrap: nowrap; */
+            flex-wrap: wrap;
+            /* flex-wrap: wrap-reverse; */
 
-    <link
-      rel="icon"
-      href="https://cozystay.loftocean.com/countryside-lodge/wp-content/uploads/sites/5/2023/03/img-57-600x449.jpg"
-    />
-  </head>
+            /* flex-direction: row; */
+            /* flex-direction: row-reverse; */
+            /* flex-direction: column; */
+            /* flex-direction: column-reverse; */
 
-  <body>
-    <section id="container">
-      <header>
-        <div>
-          <img src="" alt="" />
-        </div>
-        <div>
-          <nav>
-            <ul>
-              <li><a href=""> Shop by Category </a></li>
-              <li><a href=""> Clearance Sale</a></li>
-              <li><a href="">Blogs</a></li>
-              <li><a href="">Track your order</a></li>
-              <li><a href="">Store locator</a></li>
-            </ul>
-          </nav>
-        </div>
-        <div>
-          <i class="fas fa-search"></i>
-          <i class="fas fa-heart"></i>
-        </div>
-      </header>
+            /* It is used to align the flex items on x axis or horizontly */
+            /* justify-content:flex-start ;
+            justify-content:flex-end ; */
+            /* justify-content:center ; */
+            /* justify-content:space-between ;
+            justify-content:space-around ;
+            justify-content:space-evenly ; */
 
-      
-      <main>
-        <section id="herosection">
-          <div>
-            <img src="Organic-Store.webp" alt="" />
-          </div>
-        </section>
-        <!--end of Herosection-->
+      /* It is used to align the flex items on Y axis or Vertically */
+      /* align-items: stretch; */
+      /* align-items:flex-start ; */
+      /* align-items:flex-end ; */
+      align-items:center ;
 
-        <section id="video">
-          <div>
-            <video src="video6/video1-uhd_4096_2160_25fps.mp4"></video>
-          </div>
-          <div>
-            <video src="video6/video2-hd_1920_1080_30fps.mp4"></video>
-          </div>
-          <div>
-            <video src="video6/video3_1920_1080_25fps.mp4"></video>
-          </div>
-          <div>
-            <video src="video6/video4-uhd_3840_2160_30fps.mp4"></video>
-          </div>
-          <div>
-            <video src="video6/video5-uhd_3840_2160_24fps.mp4"></video>
-          </div>
-          <div>
-            <video src="video6/video6-hd_1920_1080_24fps.mp4"></video>
-          </div>
-        </section>
-        <!--end of video-->
+      /* align-content: space-around;
+      align-content: space-between;
+      align-content: space-evenly; */
+  
+    }
 
-        <section id="products">
-          <div>
-            <h2>Winter Wellness Products</h2>
-          </div>
+            
 
-          <section id="product_child">
-            <div>
-              <img src="" alt="" />
-              <p></p>
-              <span></span>
-              <button></button>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <p></p>
-              <span></span>
-              <button></button>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <p></p>
-              <span></span>
-              <button></button>
-            </div>
-            <div>
-              <img src="" alt="" />
-              <p></p>
-              <span></span>
-              <button></button>
-            </div>
-          </section>
-          <!--emnd of product_Childd-->
-        </section>
-        <!--end of Products-->
+        div{
+            height: 100px;
+            width: 100px;
+            border: 1px solid red;
+            /* display: inline-block; */
+        }
 
-        <section id="another_product">
-          <div>
-            <img src="" alt="" />
-            <p></p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <p></p>
-          </div>
-        </section>
-        <!--end of another_product-->
-
-        <section id="tulsi">
-          <div>
-            <img src="" alt="" />
-          </div>
-          <div>
-            <h2>GET THE ‘TULSI’ WELLNESS EDGE</h2>
-            <div><img src="" alt="" /></div>
-
-            <div>
-              <h3></h3>
-              <p></p>
-            </div>
-
-            <div><img src="" alt="" /></div>
-
-            <div>
-              <h3></h3>
-              <p></p>
-            </div>
-
-            <div><img src="" alt="" /></div>
-
-            <div>
-              <h3></h3>
-              <p></p>
-            </div>
-          </div>
-          <button></button>
-        </section>
-        <!--end of Tulsi-->
-
-        <section id="organic">
-          <div>
-            <h2>Best Selling Organic Products</h2>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h4></h4>
-            <p></p>
-            <button></button>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h4></h4>
-            <p></p>
-            <button></button>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h4></h4>
-            <p></p>
-            <button></button>
-          </div>
-          <div>
-            <img src="" alt="" />
-            <h4></h4>
-            <p></p>
-            <button></button>
-          </div>
-        </section>
-        <!--end of organic-->
-
-        <section id="healthy">
-          <div>
-            <h2>HEALTHY CONSCIOUS LIVING</h2>
-            <p>
-              Healthy Conscious Living includes conscious business practices to
-              ensure our impact on our world and communities is a positive one.
-              At the foundation of ORGANIC INDIA’s products, company, and
-              sourcing is regenerative agriculture that not only sustains but
-              replenishes the earth; fair trade practices that support and
-              honour farmer partners with equitable wages, health care, and
-              ongoing organic agricultural training; and a LEED Platinum
-              certified production facility that is a marvel of top-tier
-              sustainable design, construction, and operations. This all
-              culminates in the creation of Organic, Non-GMO herbal teas and
-              supplements that support the health of the population, the
-              vibrancy of the planet, and the livelihood of communities in
-              India.
-            </p>
-            <button></button>
-          </div>
-          <div>
-            <img src="" alt="" />
-          </div>
-        </section>
-        <!--end of healthy-->
-
-        <section id="review">
-          <div>
-            <h2></h2>
-            <img src="" alt="" />
-            <h3></h3>
-            <p></p>
-          </div>
-        </section>
-        <!--end of review-->
-
-        <section id="beat">
-          <div>
-            <img src="" alt="" />
-          </div>
-          <div>
-            <h2></h2>
-            <p></p>
-            <button></button>
-          </div>
-        </section>
-        <!--ens of Beat-->
-      </main>
-
-      <footer>
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li>2</li>
-            <li>2</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li>2</li>
-            <li>2</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li>2</li>
-            <li>2</li>
-          </ul>
-        </div>
-        <div>
-          <ul>
-            <li></li>
-            <li></li>
-            <li>2</li>
-            <li>2</li>
-          </ul>
-        </div>
-      </footer>
-    </section>
-    <!--end of Container-->
-  </body>
+        #item1{
+            /* align-self: flex-start; */
+            /* order: 4; */
+        }
+        #item2{
+            /* align-self: flex-end; */
+            /* order: 3; */
+        }
+        #item3{
+            /* align-self: center; */
+            /* order: 2; */
+            /* flex-grow: 1; */
+        }
+        #item4{
+            /* align-self: flex-start; */
+            /* order: 1; */
+            /* flex-grow:2 ; */
+        }
+    </style>
+</head>
+<body>
+       <section>
+           <div id="item1">1</div>
+           <div id="item2">2</div>
+           <div id="item3">3</div>
+           <div id="item4">4</div>
+          
+          
+       </section>
+</body>
 </html>

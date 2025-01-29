@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        #product{
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-evenly;
+        }
+        #product_first{
+            width: 100%;
+            text-align: center;
+        }
+
+        .product_combine{
+            width: 100%;
+            margin: 5px ;
+            border: 1px solid ;
+            text-align: center;
+        }
+        .product_combine img{
+            width: 100%;
+        }
+        button{
+            margin: 10px 0px;
+            padding: 5px;
+            background-color: green;
+            color: white;
+            border-radius: 5px;
+            border: none;
+        }
+
+        /* @media only screen and (min-width:768px)
+        {
+            .product_combine{
+                width: 47%;
+            }
+            button{
+                background-color: red;
+            }
+        }
+        @media only screen and (min-width:1200px)
+        {
+            .product_combine{
+                width: 23%;
+            }
+        } */
+    </style>
+</head>
+<body>
+       <section id="product">
+
+           <div id="product_first">
+            <h2>Winter Wellness Products</h2>
+           </div>
+           <div class="product_combine">
+            <img src="https://organicindia.com/cdn/shop/files/Chyawanprash1_558X600_crop_center.jpg?v=1713250497" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Buy now</button>
+           </div>
+           <div class="product_combine">
+            <img src="https://organicindia.com/cdn/shop/files/Chyawanprash1_558X600_crop_center.jpg?v=1713250497" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Buy now</button>
+           </div>
+           <div class="product_combine">
+            <img src="https://organicindia.com/cdn/shop/files/Chyawanprash1_558X600_crop_center.jpg?v=1713250497" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Buy now</button>
+           </div>
+           <div class="product_combine">
+            <img src="https://organicindia.com/cdn/shop/files/Chyawanprash1_558X600_crop_center.jpg?v=1713250497" alt="">
+            <p>Lorem ipsum dolor sit amet.</p>
+            <button>Buy now</button>
+           </div>
+       </section>
+</body>
+</html>
