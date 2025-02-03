@@ -10,40 +10,77 @@
             margin: 0;
             padding: 0;
         }
-        .mainwrapper{
-            height: 500px;
-            border: 2px solid green;
+        #product{
             display: flex;
             flex-wrap: wrap;
             justify-content: space-evenly;
         }
-        .child{
-            height: 100px;
+        #product_first{
             width: 100%;
+            text-align: center;
+        }
+        .common{
+            width: 100%;
+            margin: 10px;
+            text-align: center;
             border: 1px solid red;
         }
 
+        .common img{
+            width: 100%;
+        }
+
+        button{
+            margin: 10px 0px;
+            padding: 9px;
+            background-color: green;
+            color: white;
+            border: none;
+            border-radius: 10px;
+        }
+
         @media only screen and (min-width:768px){
-            .child{
-            width: 47%;
-            /* border: 2px dotted rgb(58, 221, 3); */
+            .common{
+            width: 45%;
         }
         }
-        @media only screen and (min-width:1200px)
-        {
-            .child{
-            width: 23%;
+
+        @media only screen and (min-width:1200px){
+            .common{
+            width: 22%;
         }
         }
-        
     </style>
 </head>
 <body>
-      <section class="mainwrapper">
-        <div class="child">Item-1</div>
-        <div class="child">Item-2</div>
-        <div class="child">Item-3</div>
-        <div class="child">Item-4</div>
-      </section>
+    <section id="product">
+        <div id="product_first">
+            <h2>Winter Wellness Products</h2>
+        </div>
+        <div class="common">
+            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
+            <h5>Immunity 60 Cap</h5>
+            <p>Lorem, ipsum.</p>
+            <button>ADD TO CART</button>
+        </div>
+        <div class="common">
+            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
+            <h5>Immunity 60 Cap</h5>
+            <p>Lorem, ipsum.</p>
+            <button>ADD TO CART</button>
+        </div>
+        <div class="common">
+            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
+            <h5>Immunity 60 Cap</h5>
+            <p>Lorem, ipsum.</p>
+            <button>ADD TO CART</button>
+        </div>
+        <div class="common">
+            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
+            <h5>Immunity 60 Cap</h5>
+            <p>Lorem, ipsum.</p>
+            <button>ADD TO CART</button>
+        </div>
+    </section>
 </body>
 </html>
