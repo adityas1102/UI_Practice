@@ -5,82 +5,50 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
-        *{
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-        #product{
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-evenly;
-        }
-        #product_first{
-            width: 100%;
-            text-align: center;
-        }
-        .common{
-            width: 100%;
-            margin: 10px;
-            text-align: center;
-            border: 1px solid red;
+        div{
+              height: 100px;
+              width: 100px;
+                background-color: rgb(20, 234, 31);
+                transition-duration: 5s;
+                /* transition-delay: 5s; */
+                /* transition-timing-function: ease-out; */
+                /* margin: 0px auto; */
         }
 
-        .common img{
-            width: 100%;
-        }
+        div:hover{
+            background-color: red;
+            /* width: 500px; */
+             /* transform:translateX(600px) ; */
+             /* transform:translateY(-600px) ; */
+             /* transform:translate(400px,400px) ; */
 
-        button{
-            margin: 10px 0px;
-            padding: 9px;
-            background-color: green;
-            color: white;
-            border: none;
-            border-radius: 10px;
-        }
+             /* transform: scaleX(4); */
+             /* transform: scaleY(2); */
+             /* transform: scale(-2); */
 
-        @media only screen and (min-width:768px){
-            .common{
-            width: 45%;
-        }
-        }
+             /* transform: skewX(-50deg); */
+             /* transform: skewY(50deg); */
+             /* transform: skew(50deg,70deg); */
 
-        @media only screen and (min-width:1200px){
-            .common{
-            width: 22%;
-        }
-        }
+             /* transform:rotateX(120deg) ; */
+             /* transform:rotateY(120deg) ; */
+             /* transform:rotateZ(360deg) ; */
+
+             transform: translateX(1000px) rotateZ(360deg) ;
+             border-radius: 100%;
+             /* transform: rotateZ(360deg); */
+
+            }
+
+            
+
+
+
+    
     </style>
 </head>
 <body>
-    <section id="product">
-        <div id="product_first">
-            <h2>Winter Wellness Products</h2>
-        </div>
-        <div class="common">
-            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
-            <h5>Immunity 60 Cap</h5>
-            <p>Lorem, ipsum.</p>
-            <button>ADD TO CART</button>
-        </div>
-        <div class="common">
-            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
-            <h5>Immunity 60 Cap</h5>
-            <p>Lorem, ipsum.</p>
-            <button>ADD TO CART</button>
-        </div>
-        <div class="common">
-            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
-            <h5>Immunity 60 Cap</h5>
-            <p>Lorem, ipsum.</p>
-            <button>ADD TO CART</button>
-        </div>
-        <div class="common">
-            <img src="https://organicindia.com/cdn/shop/files/051A4754_558X600_crop_center.jpg?v=1713868478" alt="Image Not Found">
-            <h5>Immunity 60 Cap</h5>
-            <p>Lorem, ipsum.</p>
-            <button>ADD TO CART</button>
-        </div>
-    </section>
+  
+       <div>1</div>
 </body>
 </html>
