@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Change Image on Click</title>
+</head>
+<body>
+    <h2>Click the Image to Change It</h2>
+    
+    <img id="myImage" src="image1.jpg" alt="Image 1" width="300" onclick="changeImage()">
+    
+    <script>
+        function changeImage() {
+            const img = document.getElementById("myImage");
+            // Check current image and toggle
+            if (img.getAttribute("src") === "image1.jpg") {
+                img.setAttribute("src", "image2.jpg");
+                img.setAttribute("alt", "Image 2");
+            } else {
+                img.setAttribute("src", "image1.jpg");
+                img.setAttribute("alt", "Image 1");
+            }
+        }
+    </script>
+</body>
+</html>
